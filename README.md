@@ -1,7 +1,7 @@
 # connect-4
 
 This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is intended to be a mobile application of the classic Connect 4 game. In this app the user plays against the computer to place coloured counters into the given grid until one gets four of their colour in a row and therfore wins the game.
 
 ## Prerequisites
 
@@ -45,8 +45,7 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build --environment production` (production)
 
 ### Deploying
-
-Specify what it takes to deploy your app.
+//
 
 ## Further Reading / Useful Links
 
