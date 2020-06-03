@@ -1,0 +1,22 @@
+{{!-- this hbs file defines what is to be displayed on the page, the styling for these elements is already defined in the css file --}}
+<section id="app">
+  {{!-- defines the content to be displayed in the header  --}}
+  <header>
+    {{!-- the following line links the page to the connect 4 game, when this header is pressed, the page is loaded
+    (this is useful when on another page of the game e.g. a highscores page) --}}
+    <h1>{{#link-to "game"}} Connect 4 {{/link-to}}</h1>
+  </header>
+  {{!-- this outlet shows where the child templates should be displayed, in this case the connect 4 game will be displayed in the article section --}}
+  <article>
+    {{outlet}}
+  </article>
+  {{!-- this section defines what will be displayed in the footer of the app and also includes a link to a highscores page --}}
+  <footer>
+    <div class="float-left">
+      Powered by Ember.
+    </div>
+    {{!-- <div class="float-right">
+      {{#link-to 'highscores'}} High-scores {{/link-to}}
+    </div> --}}
+  </footer>
+</section>
